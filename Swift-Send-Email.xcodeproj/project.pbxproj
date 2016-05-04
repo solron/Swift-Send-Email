@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3A8455B1CDAA48A00C3CCB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8455A1CDAA48A00C3CCB0 /* AppDelegate.swift */; };
+		E3A8455D1CDAA48A00C3CCB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8455C1CDAA48A00C3CCB0 /* ViewController.swift */; };
+		E3A845601CDAA48A00C3CCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A8455E1CDAA48A00C3CCB0 /* Main.storyboard */; };
+		E3A845621CDAA48A00C3CCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A845611CDAA48A00C3CCB0 /* Assets.xcassets */; };
+		E3A845651CDAA48A00C3CCB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A845631CDAA48A00C3CCB0 /* LaunchScreen.storyboard */; };
+		E3A845701CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8456F1CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift */; };
+		E3A8457B1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8457A1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3A8456C1CDAA48A00C3CCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A8454F1CDAA48900C3CCB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A845561CDAA48900C3CCB0;
+			remoteInfo = "Swift-Send-Email";
+		};
+		E3A845771CDAA48A00C3CCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A8454F1CDAA48900C3CCB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A845561CDAA48900C3CCB0;
+			remoteInfo = "Swift-Send-Email";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3A845571CDAA48900C3CCB0 /* Swift-Send-Email.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Send-Email.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A8455A1CDAA48A00C3CCB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3A8455C1CDAA48A00C3CCB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3A8455F1CDAA48A00C3CCB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3A845611CDAA48A00C3CCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A845641CDAA48A00C3CCB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3A845661CDAA48A00C3CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A8456B1CDAA48A00C3CCB0 /* Swift-Send-EmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Send-EmailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A8456F1CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Send_EmailTests.swift; sourceTree = "<group>"; };
+		E3A845711CDAA48A00C3CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A845761CDAA48A00C3CCB0 /* Swift-Send-EmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Send-EmailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A8457A1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Send_EmailUITests.swift; sourceTree = "<group>"; };
+		E3A8457C1CDAA48A00C3CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3A845541CDAA48900C3CCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845681CDAA48A00C3CCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845731CDAA48A00C3CCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3A8454E1CDAA48900C3CCB0 = {
+			isa = PBXGroup;
+			children = (
+				E3A845591CDAA48A00C3CCB0 /* Swift-Send-Email */,
+				E3A8456E1CDAA48A00C3CCB0 /* Swift-Send-EmailTests */,
+				E3A845791CDAA48A00C3CCB0 /* Swift-Send-EmailUITests */,
+				E3A845581CDAA48900C3CCB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3A845581CDAA48900C3CCB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3A845571CDAA48900C3CCB0 /* Swift-Send-Email.app */,
+				E3A8456B1CDAA48A00C3CCB0 /* Swift-Send-EmailTests.xctest */,
+				E3A845761CDAA48A00C3CCB0 /* Swift-Send-EmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3A845591CDAA48A00C3CCB0 /* Swift-Send-Email */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8455A1CDAA48A00C3CCB0 /* AppDelegate.swift */,
+				E3A8455C1CDAA48A00C3CCB0 /* ViewController.swift */,
+				E3A8455E1CDAA48A00C3CCB0 /* Main.storyboard */,
+				E3A845611CDAA48A00C3CCB0 /* Assets.xcassets */,
+				E3A845631CDAA48A00C3CCB0 /* LaunchScreen.storyboard */,
+				E3A845661CDAA48A00C3CCB0 /* Info.plist */,
+			);
+			path = "Swift-Send-Email";
+			sourceTree = "<group>";
+		};
+		E3A8456E1CDAA48A00C3CCB0 /* Swift-Send-EmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8456F1CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift */,
+				E3A845711CDAA48A00C3CCB0 /* Info.plist */,
+			);
+			path = "Swift-Send-EmailTests";
+			sourceTree = "<group>";
+		};
+		E3A845791CDAA48A00C3CCB0 /* Swift-Send-EmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8457A1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift */,
+				E3A8457C1CDAA48A00C3CCB0 /* Info.plist */,
+			);
+			path = "Swift-Send-EmailUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3A845561CDAA48900C3CCB0 /* Swift-Send-Email */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A8457F1CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-Email" */;
+			buildPhases = (
+				E3A845531CDAA48900C3CCB0 /* Sources */,
+				E3A845541CDAA48900C3CCB0 /* Frameworks */,
+				E3A845551CDAA48900C3CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Send-Email";
+			productName = "Swift-Send-Email";
+			productReference = E3A845571CDAA48900C3CCB0 /* Swift-Send-Email.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3A8456A1CDAA48A00C3CCB0 /* Swift-Send-EmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A845821CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-EmailTests" */;
+			buildPhases = (
+				E3A845671CDAA48A00C3CCB0 /* Sources */,
+				E3A845681CDAA48A00C3CCB0 /* Frameworks */,
+				E3A845691CDAA48A00C3CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3A8456D1CDAA48A00C3CCB0 /* PBXTargetDependency */,
+			);
+			name = "Swift-Send-EmailTests";
+			productName = "Swift-Send-EmailTests";
+			productReference = E3A8456B1CDAA48A00C3CCB0 /* Swift-Send-EmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3A845751CDAA48A00C3CCB0 /* Swift-Send-EmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A845851CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-EmailUITests" */;
+			buildPhases = (
+				E3A845721CDAA48A00C3CCB0 /* Sources */,
+				E3A845731CDAA48A00C3CCB0 /* Frameworks */,
+				E3A845741CDAA48A00C3CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3A845781CDAA48A00C3CCB0 /* PBXTargetDependency */,
+			);
+			name = "Swift-Send-EmailUITests";
+			productName = "Swift-Send-EmailUITests";
+			productReference = E3A845761CDAA48A00C3CCB0 /* Swift-Send-EmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3A8454F1CDAA48900C3CCB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ronny Soltveit";
+				TargetAttributes = {
+					E3A845561CDAA48900C3CCB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E3A8456A1CDAA48A00C3CCB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E3A845561CDAA48900C3CCB0;
+					};
+					E3A845751CDAA48A00C3CCB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E3A845561CDAA48900C3CCB0;
+					};
+				};
+			};
+			buildConfigurationList = E3A845521CDAA48900C3CCB0 /* Build configuration list for PBXProject "Swift-Send-Email" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3A8454E1CDAA48900C3CCB0;
+			productRefGroup = E3A845581CDAA48900C3CCB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3A845561CDAA48900C3CCB0 /* Swift-Send-Email */,
+				E3A8456A1CDAA48A00C3CCB0 /* Swift-Send-EmailTests */,
+				E3A845751CDAA48A00C3CCB0 /* Swift-Send-EmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3A845551CDAA48900C3CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A845651CDAA48A00C3CCB0 /* LaunchScreen.storyboard in Resources */,
+				E3A845621CDAA48A00C3CCB0 /* Assets.xcassets in Resources */,
+				E3A845601CDAA48A00C3CCB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845691CDAA48A00C3CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845741CDAA48A00C3CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3A845531CDAA48900C3CCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A8455D1CDAA48A00C3CCB0 /* ViewController.swift in Sources */,
+				E3A8455B1CDAA48A00C3CCB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845671CDAA48A00C3CCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A845701CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A845721CDAA48A00C3CCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A8457B1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3A8456D1CDAA48A00C3CCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A845561CDAA48900C3CCB0 /* Swift-Send-Email */;
+			targetProxy = E3A8456C1CDAA48A00C3CCB0 /* PBXContainerItemProxy */;
+		};
+		E3A845781CDAA48A00C3CCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3A845561CDAA48900C3CCB0 /* Swift-Send-Email */;
+			targetProxy = E3A845771CDAA48A00C3CCB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3A8455E1CDAA48A00C3CCB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A8455F1CDAA48A00C3CCB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3A845631CDAA48A00C3CCB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A845641CDAA48A00C3CCB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3A8457D1CDAA48A00C3CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3A8457E1CDAA48A00C3CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3A845801CDAA48A00C3CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Send-Email/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-Email";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3A845811CDAA48A00C3CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Send-Email/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-Email";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E3A845831CDAA48A00C3CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-Send-EmailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-EmailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Send-Email.app/Swift-Send-Email";
+			};
+			name = Debug;
+		};
+		E3A845841CDAA48A00C3CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-Send-EmailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-EmailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Send-Email.app/Swift-Send-Email";
+			};
+			name = Release;
+		};
+		E3A845861CDAA48A00C3CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-Send-EmailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-EmailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-Send-Email";
+			};
+			name = Debug;
+		};
+		E3A845871CDAA48A00C3CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-Send-EmailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-EmailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-Send-Email";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3A845521CDAA48900C3CCB0 /* Build configuration list for PBXProject "Swift-Send-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A8457D1CDAA48A00C3CCB0 /* Debug */,
+				E3A8457E1CDAA48A00C3CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A8457F1CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A845801CDAA48A00C3CCB0 /* Debug */,
+				E3A845811CDAA48A00C3CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3A845821CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-EmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A845831CDAA48A00C3CCB0 /* Debug */,
+				E3A845841CDAA48A00C3CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3A845851CDAA48A00C3CCB0 /* Build configuration list for PBXNativeTarget "Swift-Send-EmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A845861CDAA48A00C3CCB0 /* Debug */,
+				E3A845871CDAA48A00C3CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3A8454F1CDAA48900C3CCB0 /* Project object */;
+}
