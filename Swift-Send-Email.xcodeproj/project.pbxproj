@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					E3A845561CDAA48900C3CCB0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z5S3CG57L4;
 					};
 					E3A8456A1CDAA48A00C3CCB0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Swift-Send-Email/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-Email";
@@ -410,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Swift-Send-Email/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.corenety.Swift-Send-Email";
