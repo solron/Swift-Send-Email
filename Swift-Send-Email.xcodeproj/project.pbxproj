@@ -14,6 +14,7 @@
 		E3A845651CDAA48A00C3CCB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A845631CDAA48A00C3CCB0 /* LaunchScreen.storyboard */; };
 		E3A845701CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8456F1CDAA48A00C3CCB0 /* Swift_Send_EmailTests.swift */; };
 		E3A8457B1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8457A1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift */; };
+		E3A845891CDAB5BC00C3CCB0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A845881CDAB5BC00C3CCB0 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3A845761CDAA48A00C3CCB0 /* Swift-Send-EmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Send-EmailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A8457A1CDAA48A00C3CCB0 /* Swift_Send_EmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Send_EmailUITests.swift; sourceTree = "<group>"; };
 		E3A8457C1CDAA48A00C3CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A845881CDAB5BC00C3CCB0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A845891CDAB5BC00C3CCB0 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		E3A8454E1CDAA48900C3CCB0 = {
 			isa = PBXGroup;
 			children = (
+				E3A845881CDAB5BC00C3CCB0 /* MessageUI.framework */,
 				E3A845591CDAA48A00C3CCB0 /* Swift-Send-Email */,
 				E3A8456E1CDAA48A00C3CCB0 /* Swift-Send-EmailTests */,
 				E3A845791CDAA48A00C3CCB0 /* Swift-Send-EmailUITests */,
